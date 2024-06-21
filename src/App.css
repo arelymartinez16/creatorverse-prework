@@ -1,0 +1,144 @@
+/* article {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+.inner-container h3 {
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  height: 25%;
+}
+
+nav {
+  height: 90px;
+  background-color: #218bd1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+
+.inner-container {
+  height: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: center;
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+}
+
+.link {
+  color: #fff;
+  font-size: 20px;
+  /* margin-right: 30px; */
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #9ed9db;
+}
+
+.delete-button {
+  width: 100%;
+  background-color: rgb(235, 64, 52);
+  border: rgb(235, 64, 52);
+}
+
+.description-p {
+  color:rgb(255, 255, 255);
+  font-size: 0.8em;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 100vh;          
+}
+
+.creator-info {
+  text-align: center;     
+  padding: 20px;          
+  border: 1px solid #ddd; 
+  border-radius: 8px;     
+  /* background-color: #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+}
+
+.creator-info img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.creator-info img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* .show-creators {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.creator-list {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+} */
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
